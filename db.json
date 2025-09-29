@@ -1,0 +1,137 @@
+{
+  "deals": [
+    {
+      "id": 1,
+      "store": "Agoda",
+      "title": "5% OFF! Claim Your Savings Now At Agoda",
+      "description": "Verified deal, Expires on September 30. Total used: 4596.",
+      "type": "sale",
+      "discount": "5%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+    },
+    {
+      "id": 2,
+      "store": "Agoda",
+      "title": "Up To 85% Off Hotel Bookings Worldwide",
+      "description": "Verified deal, Expires on September 30. Total used: 5117.",
+      "type": "sale",
+      "discount": "Up to 85%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+    },
+    {
+      "id": 3,
+      "store": "Agoda",
+      "title": "Up To 30% Off International Hotel Rates",
+      "description": "Verified deal, Expires on September 30. Total used: 6736.",
+      "type": "sale",
+      "discount": "Up to 30%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+    },
+    {
+      "id": 4,
+      "store": "Agoda",
+      "title": "Get Up To $100 OFF",
+      "description": "Verified deal, Expires on September 30. Total used: 4556.",
+      "type": "sale",
+      "discount": "$100 OFF",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+    },
+    {
+      "id": 5,
+      "store": "Agoda",
+      "title": "Up To 15% Off Attractions, Tours & More",
+      "description": "Verified deal, Expires on September 30. Total used: 5721.",
+      "type": "sale",
+      "discount": "Up to 15%",
+      "expiry": "2025-09-30",
+      "sourceReq": {
+        "source": "2",
+        "sv1": "affiliate",
+        "sv_campaign_id": "251239",
+        "sscid": "89547_1759140899_ecf7cec7e73fd9f690165b96dd6ae145",
+        "awc": "89547_1759140899_ecf7cec7e73fd9f690165b96dd6ae145"
+      },
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+    },
+    {
+      "id": 6,
+      "store": "Agoda",
+      "title": "Avail Extra 7% With Agoda",
+      "description": "Verified deal, Expires on September 30. Total used: 4580.",
+      "type": "sale",
+      "discount": "7%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+    },
+    {
+      "id": 7,
+      "store": "Agoda",
+      "title": "Save 10% On Your 1st App Booking",
+      "description": "Verified deal, Expires on September 30. Total used: 5899.",
+      "type": "sale",
+      "discount": "10%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+
+    },
+    {
+      "id": 8,
+      "store": "Agoda",
+      "title": "Up To 70% + Extra 10% Off On Hotels",
+      "description": "Verified deal, Expires on September 30. Total used: 6958.",
+      "type": "sale",
+      "discount": "Up to 70% + 10%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+
+    },
+    {
+      "id": 9,
+      "store": "Agoda",
+      "title": "7% Off In Flights & Hotel Bookings",
+      "description": "Verified deal, Expires on September 30. Total used: 5237.",
+      "type": "sale",
+      "discount": "7%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+
+    },
+    {
+      "id": 10,
+      "store": "Agoda",
+      "title": "Additional discounts up to 12% on Agoda Homes",
+      "description": "Verified deal, Expires on September 30. Total used: 4345.",
+      "type": "sale",
+      "discount": "Up to 12%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+
+    },
+    {
+      "id": 11,
+      "store": "Agoda",
+      "title": "Up to 70% & Extra 8% Off On Hotels In Dubai (UAE)",
+      "description": "Verified deal, Expires on September 30. Total used: 4340.",
+      "type": "sale",
+      "discount": "Up to 70% + 8%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+
+    },
+    {
+      "id": 12,
+      "store": "Agoda",
+      "title": "10% Off Your Accommodations In New York",
+      "description": "Verified deal, Expires on September 30. Total used: 6500.",
+      "type": "sale",
+      "discount": "10%",
+      "expiry": "2025-09-30",
+      "redirect_link": "https://www.couponcode2025.com/deal-cards/"
+
+    }
+  ]
+}
