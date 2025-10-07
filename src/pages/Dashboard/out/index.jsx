@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { SERVER_URL } from "../../../libs/constants";
 
 function OutPage() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/deals/${id}`)
+    fetch(`${SERVER_URL}${id}`)
       .then((res) => res.json())
       .then((deal) => {
         console.log(deal);

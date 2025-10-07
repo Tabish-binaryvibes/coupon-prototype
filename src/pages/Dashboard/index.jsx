@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { SERVER_URL } from "../../libs/constants";
 
 function Dashboard() {
   const [deals, setDeals] = useState([]);
-  const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/deals")
+    fetch(SERVER_URL)
       .then((res) => {
         if (!res.ok) throw new Error("HTTP error " + res.status);
         return res.json();
