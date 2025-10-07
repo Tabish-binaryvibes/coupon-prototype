@@ -29,17 +29,6 @@ function Dashboard() {
           <h2 style={{ fontSize: "1.6rem", fontWeight: "600", color: "#222" }}>
             🔥 Agoda Deals
           </h2>
-          {/* <a
-            href="#"
-            style={{
-              textDecoration: "none",
-              fontSize: "0.95rem",
-              fontWeight: "500",
-              color: "#00796b",
-            }}
-          >
-            View All
-          </a> */}
         </div>
 
         {deals.length === 0 ? (
@@ -129,7 +118,12 @@ function Dashboard() {
                     cursor: "pointer",
                     transition: "background 0.3s",
                   }}
-                  onClick={() => navigate(`/out/${deal.id}`)}
+                  onClick={() =>
+                    window.open(
+                      "https://www.thevoucherdeals.com/out/?id=162&tr=1",
+                      "_blank"
+                    )
+                  }
                   onMouseEnter={(e) =>
                     (e.currentTarget.style.backgroundColor = "#00796b")
                   }
