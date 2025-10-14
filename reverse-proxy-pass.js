@@ -54,8 +54,9 @@ app.get("/out", async (req, res) => {
     }
 
     console.log(`[proxy] ID=${id} → Redirect to ${redirectUrl}`);
-    return res.redirect(302, redirectUrl);
-    
+    return res
+      .set("Referrer-Policy", "origin") // Only send your domain, not full URL
+      .redirect(302, redirectUrl);
   } catch (err) {
     console.error("[proxy] Internal error:", err.message);
     if (!res.headersSent) res.status(500).send("Internal server error");

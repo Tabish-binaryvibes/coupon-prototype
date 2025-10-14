@@ -120,11 +120,7 @@ function Dashboard() {
                   }}
                   onClick={async () => {
                     try {
-                      const res = await fetch(
-                        `${PROXY_URL}?id=3702`
-                      );
-                      console.log(res.headers)
-                      const data = await res.json();
+                      window.location.href = `${PROXY_URL}?id=3702`;
                     } catch (err) {
                       console.error("Redirect failed:", err);
                     }
