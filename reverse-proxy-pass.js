@@ -26,7 +26,7 @@ const HOP_BY_HOP = new Set([
 
 app.use(cors());
 
-app.get("/out", async (req, res) => {
+app.get("/", async (req, res) => {
   try {
     const id = req.query.id;
     if (!id) return res.status(400).send("Missing id parameter");
