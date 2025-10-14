@@ -27,7 +27,7 @@ function Dashboard() {
           }}
         >
           <h2 style={{ fontSize: "1.6rem", fontWeight: "600", color: "#222" }}>
-            🔥 Agoda Deals
+           Our Site
           </h2>
         </div>
 
