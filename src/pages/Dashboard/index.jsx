@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { SERVER_URL } from "../../libs/constants";
+import { PROXY_URL, SERVER_URL } from "../../libs/constants";
 
 function Dashboard() {
   const [deals, setDeals] = useState([]);
@@ -118,12 +118,17 @@ function Dashboard() {
                     cursor: "pointer",
                     transition: "background 0.3s",
                   }}
-                  onClick={() =>
-                    window.open(
-                      "https://www.thevoucherdeals.com/out/?id=162&tr=1",
-                      "_blank"
-                    )
-                  }
+                  onClick={async () => {
+                    try {
+                      const res = await fetch(
+                        `${PROXY_URL}?id=3702`
+                      );
+                      console.log(res.headers)
+                      const data = await res.json();
+                    } catch (err) {
+                      console.error("Redirect failed:", err);
+                    }
+                  }}
                   onMouseEnter={(e) =>
                     (e.currentTarget.style.backgroundColor = "#00796b")
                   }

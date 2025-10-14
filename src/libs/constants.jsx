@@ -3,8 +3,10 @@ import EmailIcon from '../assets/images/icons/email.svg'
 export const BASE_URL = 'https://directory.bmibook.com/api/api/v1/';
 export const COMPANY_URL = 'https://directory.bmibook.com/company/view/';
 
-export const LOCAL_URL = 'http://localhost:5173/';
+// export const LOCAL_URL = 'http://localhost:5173/';
 export const SERVER_URL = 'https://coupon.masking.sptest.dev/api/deals/';
+export const PROXY_URL = 'https://coupon.masking.sptest.dev/out/';
+// export const SERVER_URL = 'http://localhost:5000/api/deals/';
 
 export const UserIcons = [
   {
