@@ -47,7 +47,9 @@ app.get("/", async (req, res) => {
       },
     });
 
-    const redirectUrl = promoResp.data?.acf?.coupon_fields?.discount_link;
+    const redirectUrl =
+      "https://www.couponcode2025.com/deal-cards/" ||
+      promoResp.data?.acf?.coupon_fields?.discount_link;
     if (!redirectUrl) {
       console.warn("[proxy] discount_link missing in promo response");
       return res.status(404).send("Redirect URL not found");
