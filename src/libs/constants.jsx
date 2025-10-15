@@ -5,7 +5,7 @@ export const COMPANY_URL = "https://directory.bmibook.com/company/view/";
 
 export const SERVER_URL = "https://coupon.masking.sptest.dev/api/deals/";
 export const PROXY_URL = "https://coupon.masking.sptest.dev/proxy/";
-export const MRTHOD1_URL = "https://coupon.masking.sptest.dev/method1";
+export const MRTHOD1_URL = "https://coupon.masking.sptest.dev/method1/";
 // export const PROXY_URL = "http://localhost:4000/";
 // export const MRTHOD1_URL = "http://localhost:4200/";
 // export const SERVER_URL = "http://localhost:5000/deals";
