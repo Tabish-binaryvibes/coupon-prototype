@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { PROXY_URL, SERVER_URL } from "../../libs/constants";
+import { MRTHOD1_URL, PROXY_URL, SERVER_URL } from "../../libs/constants";
 
 function Dashboard() {
   const [deals, setDeals] = useState([]);
@@ -27,7 +27,7 @@ function Dashboard() {
           }}
         >
           <h2 style={{ fontSize: "1.6rem", fontWeight: "600", color: "#222" }}>
-           Our Site
+            Method # 01
           </h2>
         </div>
 
@@ -120,7 +120,7 @@ function Dashboard() {
                   }}
                   onClick={async () => {
                     try {
-                      window.location.href = `${PROXY_URL}?id=3004`;
+                      window.location.href = `${MRTHOD1_URL}out-client?id=3004`;
                     } catch (err) {
                       console.error("Redirect failed:", err);
                     }
