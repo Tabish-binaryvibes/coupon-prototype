@@ -120,7 +120,7 @@ function Dashboard() {
                   }}
                   onClick={async () => {
                     try {
-                      window.location.href = `${MRTHOD1_URL}out-client?id=3004`;
+                      window.location.href = `${MRTHOD1_URL}?id=3004`;
                     } catch (err) {
                       console.error("Redirect failed:", err);
                     }
