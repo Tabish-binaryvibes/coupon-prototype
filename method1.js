@@ -30,7 +30,7 @@ function sanitizeUrl(url) {
   return url.replace(/["'<>]/g, "");
 }
 
-app.get("/out-client", async (req, res) => {
+app.get("/", async (req, res) => {
   const { id } = req.query;
 
   // Validate input
