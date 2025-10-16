@@ -132,6 +132,19 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", timestamp: Date.now() });
 });
 
+// server/proxy.js
+app.get('/htmlContent', async (req, res) => {
+  const { url } = req.query;
+  
+  try {
+    const response = await fetch(url);
+    const html = await response.text();
+    res.send(html);
+  } catch (error) {
+    res.status(500).send('Error fetching content');
+  }
+});
+
 const PORT = process.env.PORT || 4200;
 app.listen(PORT, () => {
   console.log(`✓ Redirect server running on port ${PORT}`);
